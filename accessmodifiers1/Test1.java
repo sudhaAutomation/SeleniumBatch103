@@ -1,0 +1,16 @@
+package accessmodifiers1;
+
+public class Test1 {//4 access modifiers
+	private int a;
+	int b;
+	protected int c;
+	public int d;
+	
+	public void display() {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+	}
+
+}
